@@ -61,7 +61,7 @@ before_script:
   # Location FunctionalTests.xml
   - export "FUNCTIONAL_XML"=`find . -name 'FunctionalTests.xml' -type f`
   # Location PHPUnit
-  - export "PHPUNIT"="/typo3conf/ext/TYPO3-Google-Tag-Manager/vendor/bin/phpunit"
+  - export "PHPUNIT"=".Build/bin/phpunit"
 
 script:
   - >
