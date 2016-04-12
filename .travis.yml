@@ -68,4 +68,3 @@ script:
       echo "Running unit tests";
       ./bin/phpunit --colors -c -c $UNIT_XML Tests/Unit/*
     fi
-    echo;
